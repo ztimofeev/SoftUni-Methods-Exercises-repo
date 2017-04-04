@@ -21,7 +21,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimesInGivenRange", "Prime
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LongerLine", "LongerLine\LongerLine.csproj", "{06590533-E8F9-4B35-8FD7-757762B4D43A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CUbeProparties", "CUbeProparties\CUbeProparties.csproj", "{F9CB5BDA-FCFF-4440-9573-B261B89DF940}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CubeProparties", "CUbeProparties\CubeProparties.csproj", "{F9CB5BDA-FCFF-4440-9573-B261B89DF940}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeometryCalculator", "GeometryCalculator\GeometryCalculator.csproj", "{EDED2C6C-77D2-47CF-B531-3BB5602598C6}"
 EndProject

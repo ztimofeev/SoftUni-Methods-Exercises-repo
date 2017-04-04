@@ -1,8 +1,8 @@
-﻿namespace CUbeProparties
+﻿namespace CubeProperties
 {
     using System;
 
-    public class Program
+    public class CubeProperties
     {
         public static void Main()
         {

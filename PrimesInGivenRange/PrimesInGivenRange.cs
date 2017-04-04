@@ -3,7 +3,7 @@
     using System;
     using System.Collections.Generic;
 
-    public class Program
+    public class PrimesInGivenRange
     {
         public static void Main()
         {
@@ -40,23 +40,20 @@
 
         public static bool IsPrimeChecker(int num)
         {
-            bool result = true;
 
             if (num < 2)
             {
-                return result = false;
+                return false;
             }
-            else
+
+            for (int i = 2; i <= Math.Sqrt(num); i++)
             {
-                for (int i = 2; i <= Math.Sqrt(num); i++)
+                if (num % i == 0)
                 {
-                    if (num % i == 0)
-                    {
-                        return result = false;
-                    }
+                    return false;
                 }
             }
-            return result;
+            return true;
         }
     }
 }
